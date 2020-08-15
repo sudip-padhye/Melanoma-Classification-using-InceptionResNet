@@ -1,0 +1,8 @@
+# Train and test ffiles
+*.jpg
+
+# Notebook checkpoints
+*.ipynb_checkpoints
+
+# File
+sample_submission.csv
