@@ -1,6 +1,6 @@
 # Melanoma-Classification-using-InceptionResNet
 
-<img src="images/melanoma.jpg" alt="drawing" width="800" height="300"/>
+<img src="images/melanoma.png" alt="drawing" width="800" height="300"/>
 
 Skin cancer is the most prevalent type of cancer. Melanoma, specifically, is responsible for 75% of skin cancer deaths, despite being the least common skin cancer. The American Cancer Society estimates over 100,000 new melanoma cases will be diagnosed in 2020. It's also expected that almost 7,000 people will die from the disease. As with other cancers, early and accurate detection—potentially aided by data science—can make treatment more effective.
 
@@ -22,9 +22,11 @@ Following steps are executed for image data:
 
 1. Check for Data Leakage between training and testing data over PatientId column
 
+<img src="images/data_leakage.png" alt="drawing" width="800" height="300"/>
+
 2. Instantiating the model in the strategy scope & create the model on the TPU using InceptionResNet V2.0 (Transfer Learning).
 
-<img src="images/architecture_diagram.JPG" alt="drawing" width="800" height="300"/>
+<img src="images/architecture_diagram.png" alt="drawing" width="800" height="300"/>
 
 3. Over-sampling data
 
@@ -46,7 +48,7 @@ In addition to the above steps, we also train separate model for numerical (tabu
 
 5. Create a sequential model by defining series of Dense layers and dropouts.
 
-<img src="images/architecture_diagram_numerical.JPG" alt="drawing" width="800" height="300"/>
+<img src="images/architecture_diagram_numerical.png" alt="drawing" width="800" height="300"/>
 
 6. Train the model and test it on test-data.
 
